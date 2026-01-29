@@ -9,6 +9,8 @@ to a section with the version name.
 ## Unreleased Changes
 
 * Fix dashboard to work on v16
+* Fix error lookup up item-level tax templates
+    * Looks like a regression from 0.50.2
 
 ## 0.57.4
 
