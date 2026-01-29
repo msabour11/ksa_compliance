@@ -120,7 +120,7 @@ def create_tax_total(tax_categories: dict) -> dict:
     )
 
 
-def _get_amounts(tax_category: TaxCategoryByItems) -> float:
+def _get_amounts(tax_category: TaxCategoryByItems) -> frappe._dict:
     taxable_amount = 0
     tax_amount = 0
     total_discount = 0
