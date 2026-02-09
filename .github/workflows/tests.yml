@@ -92,9 +92,10 @@ jobs:
       - name: Install
         working-directory: /home/runner/frappe-bench
         run: |
+          env/bin/pip install setuptools==80.9.0
           bench get-app --branch version-15 erpnext
           bench get-app ksa_compliance $GITHUB_WORKSPACE
-          bench setup requirements
+          bench setup requirements --dev
           bench new-site --db-root-password root --admin-password admin test_site
           bench --site test_site install-app erpnext
           bench --site test_site install-app ksa_compliance
