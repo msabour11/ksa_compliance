@@ -92,7 +92,7 @@ jobs:
       - name: Install
         working-directory: /home/runner/frappe-bench
         run: |
-          bench get-app erpnext
+          bench get-app --branch version-15 erpnext
           bench get-app ksa_compliance $GITHUB_WORKSPACE
           bench setup requirements
           bench new-site --db-root-password root --admin-password admin test_site
