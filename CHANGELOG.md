@@ -8,6 +8,8 @@ to a section with the version name.
 
 ## Unreleased Changes
 
+## 0.60.0
+
 * Add ZATCA desktop icon image.
 
 ## 0.59.0
