@@ -8,6 +8,15 @@ to a section with the version name.
 
 ## Unreleased Changes
 
+## 0.60.0
+
+* Add ZATCA desktop icon image.
+
+## 0.59.0
+
+* Add zatca desktop icon and workspace sidebar.
+* Add business settings and additional fields doctypes in ZATCA workspace sidebar.
+
 ## 0.58.0
 
 * Fix dashboard to work on v16
