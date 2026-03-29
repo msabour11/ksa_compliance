@@ -8,6 +8,10 @@ to a section with the version name.
 
 ## Unreleased Changes
 
+## 0.60.1
+
+* Fix ZATCA desktop icon patch failure due to large size (> 1MiB). The image is now a much smaller SVG
+
 ## 0.60.0
 
 * Add ZATCA desktop icon image.
